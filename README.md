@@ -33,6 +33,9 @@ O método reduce()executa uma função redutora (fornecida por você) para cada 
 
 #### 4 Pilares POO
 
+- Encapsulamento: Permite esconder e limitar o acesso ao nosso código. Desta forma protegemos os dados! Exemplo: Um controle remoto, onde conseguimos acessar
+sua interface(Ou seja seus botões), mas não conseguimos acessar seus circuitos por dentro e saber o que realmente está acontendo para realizar o funcionamento.
+
 - Herança: Herda elementos de uma classe pai, desta forma podemos reproveitar funcionalidades que estão prontas em outras áreas do código.
 
 - Polimorfismo: Conseguimos herdar e reutilizar partes do código prontas, mas diferente da herança, podemos atribuir comportamentos distintos.
