@@ -69,3 +69,7 @@ Ou seja, deve ser aberto para extensão, mas devemos evitar introduzir alteraç�
 
 Uma subclasse deve substituir os métodos da classe pai de uma maneira que não interrompa a funcionalidade do ponto de vista do cliente.
 
+- I — Interface segregation principle
+
+Clientes não devem ser forçados a depender de métodos que não usam.
+
