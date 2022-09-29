@@ -20,3 +20,9 @@ Exemplo:
           3.Produto(Elemento Filho)
 ````
 
+#### idempotente
+
+O termo “idempotente” em TI se refere a uma operação que não afeta o aplicativo em que é chamada, se for chamada mais de uma vez com os mesmos parâmetros de entrada. Outros tipos de operações alteram a estrutura de dados do aplicativo com cada iteração.
+
+
+
