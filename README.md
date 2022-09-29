@@ -73,3 +73,15 @@ Uma subclasse deve substituir os métodos da classe pai de uma maneira que não 
 
 Clientes não devem ser forçados a depender de métodos que não usam.
 
+- D — Dependency Inversion principle
+
+Módulo (ou Classe) de alto nível : Classe que executa uma ação com uma ferramenta.
+
+Módulo de baixo nível (ou classe) : a ferramenta necessária para executar a ação
+
+Abstração : Representa uma interface que conecta as duas Classes.
+
+Detalhes : Como a ferramenta funciona
+
+Módulos de alto nível não deve depender de módulos de baixo nível, e a abstração não deve depender dos detalhes, mas sim os detalhes à abstração.
+
