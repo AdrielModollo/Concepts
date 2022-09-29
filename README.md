@@ -65,5 +65,7 @@ Fechado para modificação significa que não devemos introduzir alterações im
 Ou seja, deve ser aberto para extensão, mas devemos evitar introduzir alterações significativas em funcionalidades que ja existem e estão em operação.
 
 
+- L — Liskov substitution principle
 
+Uma subclasse deve substituir os métodos da classe pai de uma maneira que não interrompa a funcionalidade do ponto de vista do cliente.
 
