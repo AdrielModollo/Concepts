@@ -33,6 +33,8 @@ O método reduce()executa uma função redutora (fornecida por você) para cada 
 
 #### 4 Pilares POO
 
--Herança: Herda elementos de uma classe pai, desta forma podemos reproveitar funcionalidades que estão prontas em outras áreas do código.
+- Herança: Herda elementos de uma classe pai, desta forma podemos reproveitar funcionalidades que estão prontas em outras áreas do código.
+
+- Polimorfismo: Conseguimos herdar e reutilizar partes do código prontas, mas diferente da herança, podemos atribuir comportamentos distintos.
 
 
