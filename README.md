@@ -31,5 +31,8 @@ O termo “idempotente” em TI se refere a uma operação que não afeta o apli
 #### reduce
 O método reduce()executa uma função redutora (fornecida por você) para cada elemento do array, resultando em um único valor de retorno
 
+#### 4 Pilares POO
+
+-Herança: Herda elementos de uma classe pai, desta forma podemos reproveitar funcionalidades que estão prontas em outras áreas do código.
 
 
