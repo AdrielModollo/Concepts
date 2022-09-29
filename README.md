@@ -28,5 +28,8 @@ O termo “idempotente” em TI se refere a uma operação que não afeta o apli
 
 - Basicamente, a interface não permite a inserção de qualquer tipo de código, muito menos se ele for padrão. Já a classe abstrata pode oferecer uma codificação completa, o padrão ou apenas possuir a declaração de um esqueleto para ser sobrescrita posteriormente.
 
+#### reduce
+O método reduce()executa uma função redutora (fornecida por você) para cada elemento do array, resultando em um único valor de retorno
+
 
 
