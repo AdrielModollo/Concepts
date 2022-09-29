@@ -31,6 +31,11 @@ O termo “idempotente” em TI se refere a uma operação que não afeta o apli
 #### reduce
 O método reduce()executa uma função redutora (fornecida por você) para cada elemento do array, resultando em um único valor de retorno
 
+
+#### Redis
+
+- Armazena os dados em memória cache, ou seja, caso a máquina seja reiniciada perderemos todos esses dados.
+
 #### 4 Pilares POO
 
 - Abstração: Conseguimos esconder os detalhes de algo, no caso, detalhes que não são necessários!
