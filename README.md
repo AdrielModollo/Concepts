@@ -52,8 +52,18 @@ sua interface(Ou seja seus botões), mas não conseguimos acessar seus circuitos
 
 - S — Single responsibility principle
 
-````
+
 Uma classe deve ter somente uma atribuíção. Exemplo: Temos um sistema que possuí apenas duas atribuições, salvar e atualizar, note que as duas funcionalidades são totalmente distintas, por tanto elas devem ser separadas em classes diferentes!
-````
+
+
+- O — Open closed principle
+
+Aberto para extensão significa que devemos ser capazes de adicionar novos recursos ou componentes ao aplicativo sem quebrar o código existente.
+
+Fechado para modificação significa que não devemos introduzir alterações importantes na funcionalidade existente , porque isso forçaria você a refatorar muito código existente 
+
+Ou seja, deve ser aberto para extensão, mas devemos evitar introduzir alterações significativas em funcionalidades que ja existem e estão em operação.
+
+
 
 
