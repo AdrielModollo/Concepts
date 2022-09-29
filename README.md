@@ -48,3 +48,12 @@ sua interface(Ou seja seus botões), mas não conseguimos acessar seus circuitos
 - Polimorfismo: Conseguimos herdar e reutilizar partes do código prontas, mas diferente da herança, podemos atribuir comportamentos distintos.
 
 
+#### Solid
+
+- S — Single responsibility principle
+
+````
+Uma classe deve ter somente uma atribuíção. Exemplo: Temos um sistema que possuí apenas duas atribuições, salvar e atualizar, note que as duas funcionalidades são totalmente distintas, por tanto elas devem ser separadas em classes diferentes!
+````
+
+
