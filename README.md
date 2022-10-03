@@ -93,3 +93,7 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
 
 >O padrão Factory simplesmente gera uma instância de objeto para um usuário sem expor nenhuma lógica de instanciação ao cliente. Ou seja, podemos atribuir varias funcionalidades sem a necessidade de especificamente ter uma ação direta. Em termos leigos: Não precisamos preprar um prato uma comida, podemos simplesmente compra-lá e ela virá pronta. Em programação basicamente fará desta forma, atribuíremos varias funcionalidades prontas e apenas atribuíremos isso que já está pronta. Assim facilitando a manutenção e extensão ou até implementação de um novo método dentro de um factory que já exista!
 
+> Um padrão Observer é uma forma de atualizar os dependentes quando há uma mudança de estado em outro objeto. geralmente contém Observere Observable. Observer subscreve Observablee onde há uma mudança, observável notifica os observadores. Resumindo: vamos supor que acessamos a rede social do twitter, dentro do twitter existe, seguidores, author e a propria publicação. Neste fluxo sempre um observará o outro, então quando houver uma nova publicação pode haver novos seguidores, que notificará o author e o autor notificará todo twitter, onde os seguidores visualizará. Ou seja, note que funciona basicamente em um loop, onde sempre um observará o outro!
+
+
+
