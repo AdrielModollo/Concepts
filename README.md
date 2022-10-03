@@ -91,3 +91,5 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
 
 > O padrão singleton implica que deve haver apenas uma instância para uma classe. Em termos leigos, deve haver apenas um presidente por país de cada vez. Seguindo esse padrão, podemos evitar ter várias instâncias para uma classe específica.
 
+>O padrão Factory simplesmente gera uma instância de objeto para um usuário sem expor nenhuma lógica de instanciação ao cliente. Ou seja, podemos atribuir varias funcionalidades sem a necessidade de especificamente ter uma ação direta. Em termos leigos: Não precisamos preprar um prato uma comida, podemos simplesmente compra-lá e ela virá pronta. Em programação basicamente fará desta forma, atribuíremos varias funcionalidades prontas e apenas atribuíremos isso que já está pronta. Assim facilitando a manutenção e extensão ou até implementação de um novo método dentro de um factory que já exista!
+
