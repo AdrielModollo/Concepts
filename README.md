@@ -99,5 +99,9 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
 
 > Um padrão Observer é uma forma de atualizar os dependentes quando há uma mudança de estado em outro objeto. geralmente contém Observere Observable. Observer subscreve Observablee onde há uma mudança, observável notifica os observadores. Resumindo: vamos supor que acessamos a rede social do twitter, dentro do twitter existe, seguidores, author e a propria publicação. Neste fluxo sempre um observará o outro, então quando houver uma nova publicação pode haver novos seguidores, que notificará o author e o autor notificará todo twitter, onde os seguidores visualizará. Ou seja, note que funciona basicamente em um loop, onde sempre um observará o outro!
 
+- Fachada
+
+> O padrão de fachada nos permite envolver funções ou módulos semelhantes dentro de uma única interface. Dessa forma, o cliente não precisa saber nada sobre como funciona internamente.Um bom exemplo disso seria inicializar seu computador. Você não precisa saber o que acontece dentro do computador quando o liga. Você só precisa apertar um botão. Dessa forma, o padrão de fachada nos ajuda a fazer lógica de alto nível sem a necessidade de implementar tudo pelo cliente.
+
 
 
