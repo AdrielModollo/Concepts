@@ -111,6 +111,10 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
 
 >Permite construir objetos complexos passo a passo. O padrão permite produzir diferentes tipos e representações de um objeto usando o mesmo código de construção.
 
+-Adapter
+
+>Permite que objetos com interfaces incompatíveis colaborem.
+
 
 
 
