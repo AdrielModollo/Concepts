@@ -140,6 +140,7 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
                 7.2. Garantia de facilidade na manutenibilidade e extensão
                 7.3. Não afetar diretamente o cliente quando houver modificação em alguma funcionalidade
                 7.4. O cliente nunca deve ser forçado a utilizar algo que não tem necessidade
+                7.5. Garantir que funcionalidades de alto nível não dependam de baixo nível
 
 
 
