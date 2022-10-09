@@ -122,19 +122,20 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
 
 ### Algums regras de clean code
 
-1.Não utilizar má nomenclaturas em variáveis, classes, métodos ou nomes de arquivos
+1. Não utilizar má nomenclaturas em variáveis, classes, métodos ou nomes de arquivos
 
-2.Evitar o uso de muitas dependências em instâncias
+2. Evitar o uso de muitas dependências em instâncias
 
-3.Se possível utilizar libs consolidadas e reduzir o número de classes, dessa forma dimunuímos a quantidade de código e consequentemente bugs.
+3. Se possível utilizar libs consolidadas e reduzir o número de classes, dessa forma dimunuímos a quantidade de código e consequentemente bugs.
 
-4.Atentar-se para testes, os testes podem ajudar quebrar funcionalidades com o crescimento do sistema. Procure sempre uma boa cobertura de coverage!
+4. Atentar-se para testes, os testes podem ajudar quebrar funcionalidades com o crescimento do sistema. Procure sempre uma boa cobertura de coverage!
 
-5.Documente o que foi feito com muito detalhes, como se você estivesse escrevendo para alguém leigo na parte de tecnologia. 
+5. Documente o que foi feito com muito detalhes, como se você estivesse escrevendo para alguém leigo na parte de tecnologia. 
 
-6.Não deixa para refatorar quando o sistema já estiver muito grande. Faça isso o quanto antes, por que quanto mais atribuíções, mais díficil é separar responsabilidades.
+6. Não deixa para refatorar quando o sistema já estiver muito grande. Faça isso o quanto antes, por que quanto mais atribuíções, mais díficil é separar responsabilidades.
 
-7.Procure seguir padrões como SOLID, isso irá garantir que o seu sistema não vire uma bola de neve. 
+7. Procure seguir padrões como SOLID, isso irá garantir que o seu sistema não vire uma bola de neve. 
+        
         -Vantagens: 
                 7.1. Classes únicas para cada responsabilidade
                 7.2. Garantia de facilidade na manutenibilidade e extensão
@@ -142,6 +143,7 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
                 7.4. O cliente nunca deve ser forçado a utilizar algo que não tem necessidade
                 7.5. Garantir que funcionalidades de alto nível não dependam de baixo nível
 
+8. Usar códigos simples e fácil de ser interpretados para qualquer programador conseguir entender. 
 
 
 
