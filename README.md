@@ -120,5 +120,7 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
 >Permite que um objeto altere seu comportamento quando seu estado interno muda. Parece que o objeto mudou de classe.
 
 
+### Algums regras de clean code
+
 
 
