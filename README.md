@@ -135,6 +135,9 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
 6.Não deixa para refatorar quando o sistema já estiver muito grande. Faça isso o quanto antes, por que quanto mais atribuíções, mais díficil é separar responsabilidades.
 
 7.Procure seguir padrões como SOLID, isso irá garantir que o seu sistema não vire uma bola de neve. 
+        -Vantagens: 
+                7.1. Classes únicas para cada responsabilidade
+
 
 
 
