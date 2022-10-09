@@ -138,6 +138,7 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
         -Vantagens: 
                 7.1. Classes únicas para cada responsabilidade
                 7.2. Garantia de facilidade na manutenibilidade e extensão
+                7.3. Não afetar diretamente o cliente
 
 
 
