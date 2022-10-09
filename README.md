@@ -122,7 +122,9 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
 
 ### Algums regras de clean code
 
--Não utilizar má nomenclaturas em variáveis, classes, métodos ou nomes de arquivos
+1.Não utilizar má nomenclaturas em variáveis, classes, métodos ou nomes de arquivos
+2.Evitar o uso de muitas dependências em instâncias
+3.
 
 
 
