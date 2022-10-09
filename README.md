@@ -126,6 +126,7 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
 2.Evitar o uso de muitas dependências em instâncias
 3.Se possível utilizar libs consolidadas e reduzir o número de classes, dessa forma dimunuímos a quantidade de código e consequentemente bugs.
 4.Atentar-se para testes, os testes podem ajudar quebrar funcionalidades com o crescimento do sistema. Procure sempre uma boa cobertura de coverage!
+5.Documente o que foi feito com muito detalhes, como se você estivesse escrevendo para alguém leigo na parte de tecnologia. 
 
 
 
