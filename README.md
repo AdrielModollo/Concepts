@@ -145,6 +145,8 @@ Módulos de alto nível não deve depender de módulos de baixo nível, e a abst
 
 8. Usar códigos simples e fácil de ser interpretados para qualquer programador conseguir entender. 
 
+9. Usar uma arquitetura clen, que vá além de um simples MVC. Exemplo: podemos adicionar camadas, de components, domains, presentation, e usar os designers patterns para garantir a padronização e funcionamento.
+
 
 
 
