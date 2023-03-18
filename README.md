@@ -24,6 +24,14 @@ Exemplo:
 
 O termo “idempotente” em TI se refere a uma operação que não afeta o aplicativo em que é chamada, se for chamada mais de uma vez com os mesmos parâmetros de entrada. Outros tipos de operações alteram a estrutura de dados do aplicativo com cada iteração.
 
+Imagine que você tem uma lista com os seguintes elementos: [1, 2, 3, 4]. Agora, você quer remover o número 2 da lista. Se você executar a operação de remoção apenas uma vez, o resultado será: [1, 3, 4].
+
+Se você executar a operação de remoção mais uma vez, o número 2 não estará mais na lista, então não haverá nada a ser removido e a lista final será a mesma: [1, 3, 4].
+
+Se você executar a operação de remoção várias vezes seguidas, o resultado final ainda será o mesmo: [1, 3, 4]. Isso ocorre porque a operação de remoção é idempotente, ou seja, o resultado final da lista é o mesmo, independentemente do número de vezes que a operação é executada.
+
+
+
 #### Diferença entre classe abstrata e interface abstrata
 
 - Basicamente, a interface não permite a inserção de qualquer tipo de código, muito menos se ele for padrão. Já a classe abstrata pode oferecer uma codificação completa, o padrão ou apenas possuir a declaração de um esqueleto para ser sobrescrita posteriormente.
